@@ -83,20 +83,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471741561}
   m_Enabled: 1
---- !u!136 &8766721671262159348
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7916736768746829827}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.22817743
-  m_Height: 1.5678375
-  m_Direction: 1
-  m_Center: {x: 0.0087685585, y: 0.7770661, z: 0}
 --- !u!114 &4220949708042953890
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -109,6 +95,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52922a5c568c8a9469255596855b95c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &4492522241154455404
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7916736768746829827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.42461777, y: 1.5895985, z: 0.33511353}
+  m_Center: {x: 0, y: 0.7806776, z: -0.025571823}
 --- !u!1001 &7916736768746733387
 PrefabInstance:
   m_ObjectHideFlags: 0
